@@ -9,9 +9,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:#fafafa;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Prevent unwanted body scroll and fix layout */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  overflow: hidden; /* stop full-page scrolling */
+}
+
+/* Allow only your main content (like notes list) to scroll */
+main {
+  height: 100vh; /* full viewport height */
+  overflow-y: auto;
+}
+
