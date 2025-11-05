@@ -5,7 +5,7 @@ import { NotesCard } from "../../components/NotesCard";
 
 
 export const Important = () => {
-    const { important, notesDispatch } = useNotes();
+    const { important } = useNotes();
 
     return (
         <>
