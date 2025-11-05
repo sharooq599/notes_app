@@ -1,7 +1,7 @@
 import { Navbar } from "../../components/Navbar";
 import { SideBar } from "../../components/Sidebar";
 import { useNotes } from "../../context/notes-context"
-import { notesReducer } from "../../reducers/notesReducers";
+
 
 
 export const Bin = () => {

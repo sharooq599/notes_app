@@ -1,4 +1,4 @@
-import { redirectDocument } from 'react-router-dom';
+
 import { v4 as uuid } from 'uuid';
 
 export const notesReducer = (state, { type, payload }) => {

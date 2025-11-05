@@ -7,10 +7,6 @@ import { NotesCard } from "../../components/NotesCard";
 export const Important = () => {
     const { important, notesDispatch } = useNotes();
 
-    const onRemoveFromImportant = (id) => {
-        notesDispatch({ type: "REMOVE_FROM_IMPORTANT", payload: { id } });
-    };
-
     return (
         <>
             <Navbar />
